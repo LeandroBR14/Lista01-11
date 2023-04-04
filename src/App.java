@@ -1,18 +1,14 @@
 import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
-        double numero1;
-        double numero2;
-        double numero3;
-
         Scanner teclado = new Scanner(System.in);
 
         System.out.println("Digite um número inteiro: ");
-        numero1 = teclado.nextInt();
+        double numero1 = teclado.nextInt();
         System.out.println("Digite um segundo número inteiro: ");
-        numero2 = teclado.nextInt();
+        double numero2 = teclado.nextInt();
         System.out.println("Digite um número real: ");
-        numero3 = teclado.nextDouble();
+        double numero3 = teclado.nextDouble();
 
 
         //////////////Exercicio letra a///////////////// 
